@@ -1,0 +1,247 @@
+header {
+  display: flex;
+  justify-content: center; /* ცენტრირებას ახდენს ჰედერის კონტენტი */
+  align-items: center;
+  height: 65px;
+  margin-top: 53px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #fff;
+}
+
+.logo {
+  margin-right: 195px; /* ლოგოს და ნავიგაციის შორის დაშორება */
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 16px;
+}
+
+nav ul li a {
+  color: black;
+  font-size: 18px;
+}
+
+nav ul li a.cta {
+  background-color: #6B77E5;
+  color: white;
+  padding: 10px 20px; /* ვიზუალურად უკეთესად იჯდება ჰედერში */
+}
+
+
+.work-process {
+  align-items: center;
+  margin: 0 auto;
+}
+
+.work.steps {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.step {
+  width: 386px;
+  background-color: #fff;
+  padding: 31px;
+  margin-bottom: 20px;
+  background-color: #F4F4F4;
+
+}
+
+.step h3 {
+  margin-bottom: 16px;
+  font-size: 25px;
+  width: 300px;
+
+}
+
+.step p {
+  margin-bottom: 37px;
+  width: 300px;
+}
+
+.step a {
+  color: #4CAF50;
+  width: 300px;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+.step img {
+  margin-bottom: 28px;
+}
+
+.work-process p {
+  align-items: center;
+}
+
+
+/* Work Process Section */
+.work-process {
+  margin-top: 136px;
+  text-align: center;
+  padding: 50px;
+}
+
+.work-process p {
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.work-process h2 {
+  margin-bottom: 41px;
+  font-size: 40px;
+}
+
+.work-steps {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.step {
+  width: 386px;
+  background-color: #f0efef;
+  padding-right: 31px;
+  margin-bottom: 20px;
+}
+
+.step img {
+  margin-top: 10px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /* ცენტრში განლაგება */
+  margin-bottom: 58px;
+}
+
+.step h3 {
+  margin-top: 58px;
+  margin-bottom: 16px;
+  font-size: 25px;
+}
+
+.step p {
+  margin-bottom: 37px;
+  width: 300px;
+}
+
+.step a {
+  color: #4CAF50;
+}
+
+/* presentation section */
+
+.presentation {
+  margin-top: 60px;
+  position: relative;
+  text-align: center;
+  height: 557px; /* სურათის სიმაღლე */
+}
+
+.presentation-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* სურათი მთლიანად შეავსებს კონტეინერს */
+}
+
+.presentation-content {
+  width: 511px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:black; /* ტექსტის ფერი */
+  z-index: 1; /* ტექსტი სურათზე გამოსაჩენი */
+}
+
+.presentation-content h1 {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.presentation-content h2 {
+  font-size: 40px;
+  margin-bottom: 21px;
+}
+
+.presentation-content p {
+  font-size: 1rem;
+  margin-bottom: 47px;
+}
+
+.play-button img {
+  cursor: pointer;
+}
+
+
+
+.team {
+  text-align: center;
+  padding: 50px;
+  background-color: #ffffff;
+  margin-bottom: 131px;
+}
+
+.team h2 {
+  margin-top: 130px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.team h3 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #000000;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 31px; /* წევრებს შორის სივრცე */
+  flex-wrap: wrap;
+}
+
+.team-member {
+  width: 386px; /* თითოეული წევრის სიგანე */
+  position: relative;
+  overflow: hidden;
+}
+
+.team-member img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* სურათი მთლიანად შეავსებს კონტეინერს */
+}
+
+.member-info {
+  position: absolute;
+  bottom: 22px; /* ფოტოდან 22 პიქსელით ზემოთ */
+  width: 341px; /* ზუსტი სიგანე */
+  background-color: #ffffff; /* თეთრი ფონის ფერი */
+  color: #333; /* ტექსტის ფერი */
+  padding: 10px;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.member-info h4 {
+  margin: 5px 0;
+  font-size: 1.25rem;
+}
+
+.member-info p {
+  margin: 0;
+  font-size: 18px;
+}
